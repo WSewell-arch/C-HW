@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+/**
+ * @file Lab2_wsewell1.cpp
+ * @author Winston Sewell
+ * @date 2025-01-22
+ * @brief A program to calculate the perimeter of a rectangle from user input.
+ */
+
+int main()
+{
+    float Length, Width;
+    float Perimeter = 2 * (Length + Width);
+    cout << "This is a program that calculates the perimeter of a rectangle" << endl;
+    cout << "Please Enter The Rectangle's Length: ";
+    cin >> Length;
+    cout << "Please Enter The Rectangle's Width: ";
+    cin >> Width;
+    cout << "The Length is:  " << Length << endl;
+    cout << "The Perimeter is: "<< Perimeter << endl;
+    
+}
